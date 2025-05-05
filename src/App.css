@@ -44,12 +44,24 @@ header {
 .header-animation {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 15px;
 }
 
 .emoji {
   font-size: 2rem;
+}
+
+.header-logo {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+}
+
+.header-logo:hover {
+  transform: scale(1.1);
 }
 
 header h1 {
@@ -483,5 +495,9 @@ footer {
   .history-arrow {
     margin: 5px 0;
     transform: rotate(90deg);
+  }
+
+  .header-logo {
+    height: 40px;
   }
 }

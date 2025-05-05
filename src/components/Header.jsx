@@ -4,9 +4,17 @@ function Header() {
   return (
     <header>
       <div className="header-animation">
-        <span className="emoji" role="img" aria-label="star">⭐</span>
+        <img 
+          src="/logo1.png" 
+          alt="Left Logo" 
+          className="header-logo" 
+        />
         <h1>Your Instincts</h1>
-        <span className="emoji" role="img" aria-label="rocket">🚀</span>
+        <img 
+          src="/logo2.png" 
+          alt="Right Logo" 
+          className="header-logo" 
+        />
       </div>
       <h2>A Vital Guide to Your Career Path</h2>
     </header>
